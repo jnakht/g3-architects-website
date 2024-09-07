@@ -256,6 +256,17 @@ nav .nav-title {
     .features .description {
         width: 90vw;
     }
+    .facts-block-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .facts-block {
+        height: 300px;
+        width: 300px;
+    }
+    .facts-description p {
+        max-width: 90vw;
+    }
 }
 
 /* tablet or medium devices */
