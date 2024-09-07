@@ -152,6 +152,65 @@ nav .nav-title {
     margin-bottom: 24px;
 }
 
+.icons {
+    height: 45px;
+    width: 45px;
+    margin-bottom: 10px;
+}
+.facts {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.facts-block p {
+    margin-bottom: 10px;
+    color:  #424242;
+    font-size: 2.81rem;
+    font-weight: 600;
+}
+.facts-block b {
+    color:  #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+
+.facts-block-container {
+    display: flex;
+    width: 76vw;
+    margin: 100px auto;
+    justify-content: space-around;
+   
+}
+
+.facts-title {
+    color: #131313;
+    font-size: 2.81rem;
+    font-weight: 700;
+}
+
+.facts-description {
+    width: 76vw;
+    margin: 0 auto;
+}
+
+.facts-description p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 37.14%;
+}
+
+.facts-block {
+    width: 16.57%;
+    height: 14.59vw;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* media query and media screen */
 /* mobile device or small device */
 @media screen and (max-width: 576px) {
@@ -193,6 +252,7 @@ nav .nav-title {
         grid-column: 1/span 6;
         grid-row: 4/span 1;
     }
+
     .features .description {
         width: 90vw;
     }
@@ -200,18 +260,21 @@ nav .nav-title {
 
 /* tablet or medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+
     nav,
-    .features
-     {
+    .features {
         flex-direction: column;
     }
+
     .features .image-container,
     .features .description {
         width: 90vw;
     }
+
     .features .description {
         margin-top: 30px;
     }
+
     .banner-description {
         max-width: 90%;
     }
