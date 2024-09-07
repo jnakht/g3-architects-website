@@ -25,6 +25,7 @@ img {
     font-weight: 600;
     font-size: 1.25rem;
     border: none;
+    cursor: pointer;
 }
 .banner-description {
     max-width: 45%;
@@ -79,4 +80,24 @@ nav .nav-title {
 .banner .banner-picture {
     width: 76vw;
     margin: 0 auto;
+}
+
+/* media query and media screen */
+/* mobile device or small device */
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+    }
+    .banner-description {
+        max-width: 90%;
+    }
+}
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav {
+        flex-direction: column;
+    }
+    .banner-description {
+        max-width: 90%;
+    }
 }
